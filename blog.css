@@ -1,0 +1,1069 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  /* width: 100%; */
+  height: 70px;
+  display: flex;
+  font-size: 20px;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  gap: 30px;
+  background-color: rgb(247, 159, 112);
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons {
+  font-size: 22px;
+}
+
+.logo1 {
+  margin-top: -22px;
+}
+
+.container {
+  width: 90vw;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  padding-top: 5.5rem;
+}
+
+.main {
+  width: 20%;
+  padding-top: 15px;
+}
+
+.main3 {
+  width: 20%;
+  display: none;
+  padding-top: 15px;
+}
+
+.headingpro {
+
+  padding-top: 0.5rem;
+  padding-left: 7.5rem;
+}
+
+.pets {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.pic {
+  display: flex;
+  align-items: center;
+  padding-top: 6rem;
+}
+
+.pic span {
+  width: 50%;
+  font-size: 12px;
+  padding-left: 1rem;
+}
+
+.mainpro {
+  padding-top: 3rem;
+}
+
+.foods {
+  padding-top: 1rem;
+  font-size: 15px;
+}
+
+.mainpro1 {
+  padding-top: 3rem;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: row;
+  padding-right: 6rem;
+  padding-top: 1rem;
+  gap: 20px;
+  justify-content: center;
+}
+
+.text1 {
+  width: 60%;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  border-radius: 10px 0px 10px 0px;
+  background-color: #ff7b00;
+}
+
+.Commentpro {
+  color: black;
+}
+.test88 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.testcard2 {
+  height: 220px;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 20px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  margin: 35%;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: #ff7b00;
+}
+
+.testcard {
+  height: 220px;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 20px;
+  /* padding: 55px 5px; */
+  margin-top: 4rem;
+}
+
+.testcard img {
+  /* aspect-ratio: 1/1; */
+  width: 200px;
+  height: 120px;
+}
+
+.card2 {
+  width: 200px;
+  height: 220px;
+  margin-top: 30%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid rgb(198, 198, 198);
+  aspect-ratio: 1/1;
+}
+
+.card3 {
+  text-align: center;
+}
+
+.card3,
+p {
+  font-size: 0.75rem;
+  width: 120px;
+  text-align: center;
+  margin: auto;
+}
+
+.containerBox {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5rem;
+}
+
+.imageBox {
+  width: 50%;
+  margin-left: 10%;
+  font-weight: 700;
+  /* background-color: chartreuse; */
+  border-radius: 20px;
+}
+
+.imageMain {
+  height: 40%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* .content {
+  background-color: cadetblue;
+} */
+
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.text {
+  width: 50%;
+  text-align: center;
+  color: white;
+  border-radius: 10px 0px 10px 0px;
+  background-color: #ff7b00;
+}
+
+.Commentpro {
+  font-weight: 300;
+  color: black;
+}
+
+.heading {
+  width: 85%;
+  font-size: 18px;
+  text-align: start;
+  padding-top: 30px;
+}
+
+.para {
+  width: 480px;
+  font-weight: 400;
+  font-size: small;
+  padding-top: 20px;
+}
+
+.promain {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 6rem;
+}
+
+.promain1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.para4 {
+  width: 45%;
+  padding-top: 2rem;
+  text-align: start;
+}
+
+.dignissimos {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.emailpro {
+  width: 100%;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 80px;
+  border: 2px solid orange;
+}
+
+.btn6 {
+  width: 180px;
+  color: white;
+  background-color: #ff7b00;
+  border: 1px solid white;
+  border-radius: 80px;
+  margin-left: -80px;
+}
+
+.maincontainer1 {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding-top: 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.textmain {
+  width: 70%;
+  text-align: start;
+}
+
+.tempor {
+  padding-top: 2rem;
+}
+
+.tempor1 {
+  padding-top: 2rem;
+}
+
+.textmain1 {
+  text-align: start;
+}
+
+.textmain2 {
+  text-align: start;
+}
+
+@media screen and (min-device-width: 1280px) and (max-device-width: 1420px) {
+  .imageBox {
+    margin-left: 5%;
+  }
+
+  .imageMain {
+    height: 40%;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  .para {
+    width: 400px;
+    font-size: small;
+    padding-top: 20px;
+  }
+
+  .maincontainer1 {
+    width: 95%;
+  }
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  nav ul {
+    font-size: 16px;
+    align-items: center;
+    justify-content: start;
+    gap: 35px;
+  }
+
+  .logo1 {
+    width: 250px;
+    margin-top: -2%;
+  }
+
+  .icons {
+    font-size: 16px;
+  }
+
+  .headingpro {
+    width: 50%;
+    padding-top: 0.5rem;
+    padding-left: 7.5rem;
+  }
+
+  .containerBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imageBox {
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 50px;
+  }
+
+  .text2 {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+
+  .para {
+    width: 600px;
+    font-weight: 400;
+    font-size: small;
+    padding-top: 20px;
+  }
+
+  .pic {
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    flex-wrap: wrap;
+  }
+
+  .pic span {
+    width: 70%;
+    padding-top: 10%;
+    font-size: 15px;
+  }
+
+  .pets {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+  }
+
+  .maincontainer1 {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .promain1 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+  }
+
+  .para4 {
+    width: 85%;
+    font-size: 18px;
+    padding-top: 2rem;
+    text-align: start;
+  }
+
+  .textmain {
+    width: 80%;
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .textmain2 {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .textmain1 {
+    font-size: 14px;
+    text-align: start;
+  }
+}
+
+@media screen and (min-device-width: 840px) and (max-device-width: 1024px) {
+  nav ul {
+    width: 100%;
+    height: 70px;
+    font-size: 15px;
+    gap: 20px;
+  }
+
+  .icons {
+    font-size: 15px;
+  }
+
+  .logo1 {
+    width: 200px;
+    margin-top: -8px;
+  }
+
+  .containerBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imageBox {
+    width: 80%;
+    margin-left: 10%;
+    font-weight: 700;
+  }
+
+  .text2 {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pic {
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+  }
+
+  .pic span {
+    width: 100%;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+
+  .headingpro {
+    padding-top: 0.5rem;
+    padding-left: 5.5rem;
+  }
+
+  .card3,
+  p {
+    font-size: 0.75rem;
+    width: 115px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .pets {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+  }
+
+  .maincontainer1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .promain1 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 40px;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+  }
+
+  .mailpro {
+    padding-top: 20px;
+  }
+
+  .textmain {
+    width: 100%;
+    text-align: start;
+  }
+
+  .logo5 {
+    width: 350px;
+  }
+
+  .promain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 6rem;
+  }
+
+  .para4 {
+    width: 80%;
+    padding-top: 2rem;
+    text-align: start;
+  }
+
+  .testcard2 {
+    height: 220px;
+    width: 200px;
+    margin: -15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .test {
+    padding-top: 30px;
+  }
+
+  .testcard {
+    height: 220px;
+    width: 200px;
+    margin: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card2 {
+    width: 200px;
+    height: 220px;
+    margin: -15px;
+    padding: 30px;
+  }
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 840px) {
+  nav ul {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .icons {
+    font-size: 12px;
+  }
+
+  .logo1 {
+    width: 150px;
+    margin-top: -2%;
+  }
+
+  .containerBox {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .imageBox {
+    width: 90%;
+    margin-left: 10%;
+    font-weight: 700;
+    border-radius: 20px;
+  }
+
+  .main {
+    width: 20%;
+    display: none;
+    padding-top: 15px;
+  }
+
+  .headingpro {
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .para {
+    width: 480px;
+    padding-bottom: 50px;
+  }
+
+  .text2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .imageMain {
+    height: 40%;
+    width: 100%;
+  }
+
+  .main3 {
+    width: 100%;
+    display: block;
+    padding-top: 15px;
+  }
+
+  .container {
+    width: 90vw;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    padding-top: 5.5rem;
+    flex-wrap: wrap;
+  }
+
+  .maincontainer1 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .promain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .promain1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .mailpro {
+    padding-top: 20px;
+  }
+
+  .para4 {
+    width: 100%;
+    padding-top: 2rem;
+    text-align: start;
+  }
+
+  .textmain1 {
+    padding-top: 30px;
+  }
+
+  .textmain2 {
+    padding-top: 30px;
+  }
+
+  .tempor {
+    width: 425px;
+    padding-top: 2rem;
+  }
+
+  .pic {
+    width: 50%;
+    display: flex;
+    padding-top: 2.5rem;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .pic span {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .pets {
+    width: 250px;
+    height: 180px;
+    border-radius: 20px;
+  }
+
+  .card3,
+  p {
+    font-size: 0.75rem;
+    width: 100%;
+    text-align: center;
+    /* margin: auto; */
+  }
+
+  .padding {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .test88 {
+    width: 50%;
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .btn {
+    width: 50px;
+    height: 50px;
+    margin: 4%;
+    margin-left: 85px;
+    font-size: 20px;
+  }
+
+  .paddingpro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .paddingpro8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .testcard2 {
+    height: 260px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card2 {
+    width: 240px;
+    height: 250px;
+    margin-top: 12%;
+    padding: 30px;
+}
+
+.test89{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.text3{
+  padding-top: 50px;
+}
+
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 599px) {
+    nav ul {
+      width: 100%;
+      height: 40px;
+      gap: 0px;
+      padding: 5px;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 8px;
+    }
+
+    .icons {
+      font-size: 7px;
+    }
+
+    .logo1 {
+      width: 100px;
+      margin-top: -3%;
+    }
+
+  .main {
+    width: 20%;
+    display: none;
+    padding-top: 15px;
+}
+
+.containerBox {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-right: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Commentpro {
+  width: 50%;
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
+
+.headingpro {
+  width: 50%;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.maincontainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .promain1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .mailpro {
+    padding-top: 20px;
+  }
+
+  .promain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 2rem;
+  }
+
+  .container {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 3rem;
+  }
+
+  .para1 {
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+  }
+
+  .mainpro1 {
+    width: 95%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.btn {
+    width: 40%;
+    height: 8%;
+    font-size: 18px;
+    padding: 20px;
+    margin: 30%;
+    margin-top: 35px;
+    margin-bottom: 15%;
+}
+
+.headingpro1{
+  padding-top: 40px;
+}
+
+.para4 {
+  width: 100%;
+  padding-top: 2rem;
+  text-align: start;
+}
+
+.para {
+    width: 320px;
+    font-weight: 400;
+    font-size: small;
+    padding-top: 20px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1.5rem;
+}
+
+.heading {
+    width: 100%;
+    font-size: 16px;
+    text-align: start;
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+
+.imageBox {
+    width: 90%;
+    margin-left: 6%;
+    font-weight: 700;
+}
+  
+.text1 {
+    width: 190px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.logo5{
+  width: 80%;
+}
+
+  .main3 {
+    width: 100%;
+    display: block;
+    padding-top: 0px;
+  }
+
+  .pic {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    padding: 20px;
+    /* margin-left: 4%; */
+}
+
+.pets {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.pic span {
+    width: 100%;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.mainpro {
+  width: 50%;
+    padding-left: 40px;
+    padding-top: 3rem;
+}
+
+.header2{
+  padding-left: 20px;
+}
+
+.testcard2 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.test{
+  width: 300px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.header5{
+  padding-left: 20px;
+}
+
+.header6{
+  padding-left: 20px;
+}
+
+.card2 {
+    width: 300px;
+    height: 300px;
+    margin-top: 20%;
+    padding: 70px;
+    margin-left: 20px;
+}
+
+.card3, p {
+    font-size: 0.75rem;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.tempor {
+    width: 300px;
+    padding-top: 2rem;
+}
+
+.padding6{
+  padding-top: 20px;
+}
+
+.padding8{
+  padding-top: 30px;
+}
+
+.dignissimos {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 20px;
+}
+
+}

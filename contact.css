@@ -1,0 +1,748 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  /* width: 100%; */
+  height: 70px;
+  display: flex;
+  font-size: 20px;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  gap: 30px;
+  background-color: rgb(247, 159, 112);
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons {
+  font-size: 22px;
+}
+
+.logo1 {
+  margin-top: -22px;
+}
+
+.container {
+  width: 90%;
+  padding-top: 8rem;
+  margin: auto;
+}
+
+.main {
+  width: 30%;
+  padding: 20px;
+  margin-top: 2rem;
+  color: gray;
+  background-color: rgb(249, 245, 245);
+}
+
+.main h3 {
+  color: black;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.para {
+  width: 40%;
+  text-align: center;
+  color: gray;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.mainprocontainer {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.propadding input {
+  width: 30vw;
+  padding: 12px;
+  border-radius: 40px;
+  border: 1px solid orange;
+  font-size: 15px;
+}
+
+.container1 {
+  width: 65%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.propadding1 input {
+  width: 65vw;
+  padding: 12px;
+  border-radius: 40px;
+  border: 1px solid orange;
+  font-size: 15px;
+}
+
+.container2 {
+  width: 65%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.propadding2 textarea {
+  width: 65vw;
+  height: 40vh;
+  padding: 12px;
+  border-radius: 40px;
+  border: 1px solid orange;
+  font-size: 15px;
+}
+
+::placeholder {
+  color: gray;
+}
+
+.btn {
+  width: 15%;
+  padding: 15px;
+  margin-left: 18%;
+  margin-top: 2%;
+  background-color: rgb(96, 96, 96);
+  color: white;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+
+.promain {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 6rem;
+}
+
+.promain1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.para4 {
+  width: 45%;
+  padding-top: 2rem;
+  text-align: start;
+}
+
+.dignissimos {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.emailpro {
+  width: 100%;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 80px;
+  border: 2px solid orange;
+}
+
+.btn6 {
+  width: 180px;
+  color: white;
+  background-color: #ff7b00;
+  border: 1px solid white;
+  border-radius: 80px;
+  margin-left: -80px;
+}
+
+.maincontainer1 {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding-top: 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.textmain {
+  width: 70%;
+  text-align: start;
+}
+
+.tempor {
+  padding-top: 2rem;
+}
+
+.tempor1 {
+  padding-top: 2rem;
+}
+
+.textmain1 {
+  text-align: start;
+}
+
+.textmain2 {
+  text-align: start;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  nav ul {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    font-size: 20px;
+    padding: 18px;
+    gap: 15px;
+  }
+
+  .icons {
+    font-size: 20px;
+  }
+
+  .logo1 {
+    width: 260px;
+    margin-top: -2%;
+  }
+
+  .para4 {
+    width: 75%;
+    padding-top: 2rem;
+    text-align: start;
+  }
+
+  .promain {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 6rem;
+  }
+
+  .textmain5 {
+    width: 50%;
+  }
+
+  .tempor {
+    width: 250px;
+  }
+
+  .tempor1 {
+    width: 230px;
+  }
+}
+
+@media screen and (min-device-width: 840px) and (max-device-width: 1024px) {
+  nav ul {
+    width: 100%;
+    height: 70px;
+    font-size: 15px;
+    gap: 20px;
+  }
+
+  .icons {
+    font-size: 15px;
+  }
+
+  .logo1 {
+    width: 200px;
+    margin-top: -8%;
+  }
+
+  .main {
+    width: 100%;
+    padding: 20px;
+    margin-top: 2rem;
+    color: gray;
+    background-color: rgb(249, 245, 245);
+  }
+
+  .maincontainer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .placeholder1 {
+    padding-top: 20px;
+  }
+
+  .btn {
+    width: 20%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 30px;
+  }
+
+  .maincontainer1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .promain1 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 40px;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+  }
+
+  .mailpro {
+    padding-top: 20px;
+  }
+
+  .textmain {
+    width: 100%;
+    text-align: start;
+  }
+
+  .logo5 {
+    width: 350px;
+  }
+
+  .promain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 3rem;
+  }
+
+  .para4 {
+    width: 80%;
+    padding-top: 2rem;
+    text-align: start;
+  }
+
+  .propaddingpro {
+    padding-top: 20px;
+  }
+
+  .propaddingpro1 {
+    padding-top: 20px;
+  }
+
+  .container2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .propadding2 textarea {
+    width: 80vw;
+    height: 40vh;
+    padding: 12px;
+    border-radius: 40px;
+    border: 1px solid orange;
+    font-size: 15px;
+  }
+
+  .container1 {
+    width: 78%;
+    margin: auto;
+    padding-top: 3rem;
+  }
+
+  .propadding1 input {
+    width: 78vw;
+    padding: 12px;
+  }
+
+  .propadding input {
+    width: 35vw;
+    padding: 12px;
+  }
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 840px) {
+  nav ul {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+  }
+
+  .icons {
+    font-size: 12px;
+  }
+
+  .logo1 {
+    width: 150px;
+    margin-top: -6%;
+  }
+
+  .container {
+    width: 90%;
+    padding-top: 6rem;
+    margin: auto;
+  }
+
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .main {
+    width: 100%;
+    padding: 20px;
+    margin-top: 2rem;
+  }
+
+  .placeholder1 {
+    padding-top: 1rem;
+  }
+
+  .para {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .mainprocontainer {
+    display: flex;
+    width: 60%;
+    gap: 35px;
+  }
+
+  .propadding input {
+    width: 45vw;
+    padding: 12px;
+  }
+
+  .container1 {
+    width: 95%;
+    margin: auto;
+    padding-top: 3rem;
+  }
+
+  .propadding1 input {
+    width: 95vw;
+    padding: 12px;
+  }
+
+  .container2 {
+    width: 95%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .propadding2 textarea {
+    width: 95vw;
+    height: 40vh;
+  }
+
+  .btn {
+    width: 20%;
+    padding: 10px;
+    margin-left: 4%;
+    margin-top: 4%;
+  }
+
+  .maincontainer1 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .promain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .promain1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .mailpro {
+    padding-top: 20px;
+  }
+
+  .para4 {
+    width: 100%;
+    padding-top: 2rem;
+    text-align: start;
+  }
+
+  .textmain1 {
+    padding-top: 30px;
+  }
+
+  .textmain2 {
+    padding-top: 30px;
+  }
+
+  .tempor {
+    width: 425px;
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 599px) {
+  nav ul {
+    width: 100%;
+    height: 40px;
+    gap: 0px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 8px;
+  }
+
+  .icons {
+    font-size: 7px;
+  }
+
+  .logo1 {
+    width: 100px;
+    margin-top: -7%;
+  }
+  .container {
+    width: 90%;
+    padding-top: 4rem;
+    margin: auto;
+  }
+
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .main {
+    width: 90%;
+    padding: 28px;
+    margin-top: 2rem;
+  }
+
+  .placeholder1 {
+    padding-top: 15px;
+  }
+
+  .para {
+    width: 90%;
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .mainprocontainer {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .propadding input {
+    width: 80vw;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .container1 {
+    width: 80%;
+    margin: auto;
+    padding-top: 3rem;
+  }
+
+  .propadding1 input {
+    width: 80vw;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .propadding2 textarea {
+    width: 80vw;
+    height: 40vh;
+    padding: 12px;
+    border-radius: 40px;
+    border: 1px solid orange;
+    font-size: 15px;
+  }
+
+  .container2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .maincontainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .promain1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .mailpro {
+    padding-top: 20px;
+  }
+
+  .promain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 2rem;
+  }
+
+  .container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4rem;
+  }
+
+  .para1 {
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+  }
+
+  h1 {
+    padding-left: 15px;
+  } 
+
+   .maincontainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .promain1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .mailpro {
+    padding-top: 20px;
+  }
+
+  .promain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 2rem;
+  }
+
+  .container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4rem;
+  }
+
+  .para1 {
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+  }
+
+  .logo3{
+    width: 260px;
+    margin-left: 20px;
+  }
+
+  .dignissimos {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 20px;
+}
+
+  .mainpro1 {
+    width: 95%;
+    margin: auto;
+    color: white;
+    padding-top: 2rem;
+}
+
+.btn {
+    width: 30%;
+    height: 8%;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 10%;
+    margin-left: 40px;
+}
+
+.headingpro1{
+  padding-top: 40px;
+}
+
+.headingpro{
+  padding-top: 20px;
+}
+
+.para4 {
+  width: 100%;
+  padding-top: 2rem;
+  text-align: start;
+}
+
+.carezy{
+  width: 80%;
+}
+
+.headingpro3{
+  padding-left: 20px;
+}
+
+
+}
